@@ -46,19 +46,6 @@ namespace LeerData
                     Console.WriteLine("\n\n");
                 }
             }
-            
-            // using(var db2 = new CursosOnlineContext())
-            // {
-            //     var Curso2 = db2.Curso.Include(ci => ci.Instructores).ThenInclude(i => i.Instructor.Select(d => d.Direccion)).AsNoTracking();
-                
-            //     foreach(var curso in Curso2){
-            //         Console.WriteLine("Curso: " + curso.Titulo);
-
-            //         foreach(var ins in curso.Instructores){
-            //             Console.WriteLine("Instructores: " + ins.Instructor.Nombre + " Direccion: " + ins.Instructor.Direccion.Calle);
-            //         }
-            //     }
-            // }
         }
     }
 }
